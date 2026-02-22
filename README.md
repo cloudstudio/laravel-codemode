@@ -69,7 +69,7 @@ See [BENCHMARKS.md](BENCHMARKS.md) for more examples.
 
 - PHP 8.2+
 - Laravel 12+
-- Node.js 18+ (for the V8 sandbox)
+- Node.js 22 (for the V8 sandbox — `isolated-vm` is not yet compatible with Node 24)
 - [`laravel/mcp`](https://github.com/laravel/mcp) ^0.5
 - An OpenAPI spec source (see [OpenAPI Spec](#openapi-spec) below)
 

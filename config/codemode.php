@@ -59,6 +59,7 @@ return [
     | memory:      V8 heap limit in MB.
     | path:        Directory containing sandbox-runner.mjs and node_modules.
     | node_binary: Path to the Node.js binary. Defaults to `node` on PATH.
+    |              Requires Node.js 22 (isolated-vm is not yet compatible with 24).
     |
     */
 

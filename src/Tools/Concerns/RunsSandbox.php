@@ -109,7 +109,7 @@ trait RunsSandbox
 
         if (str_contains($errorOutput, 'not found') || str_contains($errorOutput, 'No such file')) {
             $errorOutput = sprintf(
-                "Node.js binary not found at '%s'. Install Node.js or set CODEMODE_NODE_BINARY in .env.",
+                "Node.js binary not found at '%s'. Install Node.js 22 (isolated-vm is not compatible with Node 24) or set CODEMODE_NODE_BINARY in .env.",
                 $nodeBinary,
             );
         }
