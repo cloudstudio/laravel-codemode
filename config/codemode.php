@@ -99,23 +99,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Local / CLI Mode
-    |--------------------------------------------------------------------------
-    |
-    | When running as a local MCP server (via `php artisan mcp:start`),
-    | there is no authenticated HTTP user. These values provide fallback
-    | credentials for subclasses that override resolveApiContext().
-    |
-    */
-
-    'local' => [
-        'api_url' => env('MCP_CODEMODE_API_URL'),
-        'api_token' => env('MCP_CODEMODE_TOKEN'),
-        'employee_id' => env('MCP_CODEMODE_EMPLOYEE_ID'),
-    ],
-
-    /*
-    |--------------------------------------------------------------------------
     | OpenAPI Spec
     |--------------------------------------------------------------------------
     |
