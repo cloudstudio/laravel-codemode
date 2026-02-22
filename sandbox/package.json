@@ -1,0 +1,10 @@
+{
+  "name": "codemode-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "acorn": "^8.14.0",
+    "isolated-vm": "^5.0.1"
+  }
+}

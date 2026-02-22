@@ -1,0 +1,42 @@
+{
+    "name": "cloudstudio/laravel-codemode",
+    "description": "Code Mode pattern for Laravel MCP — 2 tools to explore and call any API",
+    "keywords": ["laravel", "mcp", "codemode", "openapi", "ai"],
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/cloudstudio/laravel-codemode",
+    "authors": [
+        {
+            "name": "Cloudstudio",
+            "homepage": "https://cloudstudio.com.es"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cloudstudio/laravel-codemode/issues",
+        "source": "https://github.com/cloudstudio/laravel-codemode"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0",
+        "laravel/mcp": "^0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cloudstudio\\LaravelCodemode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cloudstudio\\LaravelCodemode\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cloudstudio\\LaravelCodemode\\CodeModeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
