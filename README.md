@@ -97,6 +97,12 @@ The install command will:
 3. Run `npm install` inside the sandbox (installs `isolated-vm` and `acorn`)
 4. Publish MCP routes if not already present
 
+Add the sandbox dependencies to your `.gitignore`:
+
+```gitignore
+/sandbox/node_modules
+```
+
 ### 3. Set up your OpenAPI spec
 
 Code Mode needs an OpenAPI spec to let the AI discover your endpoints. The easiest way is [Scramble](https://scramble.dedoc.co/) — it auto-generates the spec from your Laravel controllers and form requests:
